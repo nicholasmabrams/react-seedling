@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bootstrap-seedling">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Welcome to the React Seedling Repo</title>
+	<link rel="stylesheet" href="http://bootswatch.com/slate/bootstrap.min.css">
+    <link rel="stylesheet" href="build/bootstrap-material-design.min.css" />
 </head>
 <body>
-	<div id="root"></div>
-	<script src="bundle.js"></script>
+	<div class="container-fluid" id="root"></div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="build/bundle.js"></script>
+    <script src="build/material.min.js"></script>
+    <script src="build/ripples.js"></script>
+    <script>
+        $(function(){
+             $.material.init()
+        });
+    </script>
 </body>
 </html>

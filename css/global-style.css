@@ -1,0 +1,9 @@
+.bootstrap-seedling * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bootstrap-seedling body {
+    background-color: #727272;
+}
